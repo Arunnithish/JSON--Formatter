@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: rgb(43, 43, 43);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  gap: 20px;
+}
+.large-area {
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #aaaaaa;
+  background-color: #444444;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  resize: none;
+  font-family: monospace;
+  transition: background 0.25s color 0.25s;
+}
+.large-area:hover,
+.large-area:focus {
+  background-color: #4a4a4a;
+}
+.large-area:focus {
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 10px 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: rgb(190, 2, 190);
+  color: #fff;
+  font-weight: bold;
+}
+button:active {
+  background-color: rgb(73, 0, 61);
+}
